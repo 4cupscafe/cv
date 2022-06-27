@@ -1,0 +1,49 @@
+body {
+  background-color: #DBDFFD;
+}
+
+
+.row-div {
+  margin-left: auto;
+}
+
+.cv-div-img {
+  font-size: 500%;
+  margin: 20px;
+}
+
+.container {
+
+  text-align: center;
+}
+
+.candidate-img {
+  width:80%;
+  border-radius: 100%;
+}
+
+.header-info {
+  margin-top: 5px;
+  margin-left: 200px;
+  width: 500px;
+}
+
+.edu-img {
+  width:20%;
+}
+
+
+.top-info-hello {
+  text-align: center;
+}
+
+.contact-img {
+  margin: 10px;
+  color: white;
+}
+
+.contact-info {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #242F9B;
+}
