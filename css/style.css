@@ -1,7 +1,15 @@
 body {
   background-color: #DBDFFD;
+
 }
 
+.thing {
+  display:none;
+}
+
+.thing.open {
+  display: block;
+}
 
 .row-div {
   margin-left: auto;
@@ -13,7 +21,7 @@ body {
 }
 
 .container {
-
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -30,6 +38,7 @@ body {
   .candidate-img {
     width:60%;
     border-radius: 100%;
+    margin:20px 0;
   }
   .circle-img {
     width: 28%;
@@ -53,7 +62,11 @@ body {
 }
 
 .contact-info {
-  margin-top: 50px;
   text-align: center;
   background-color: #242F9B;
+}
+
+.nav_right {
+  position: absolute;
+  right: 0;
 }
