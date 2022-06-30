@@ -101,16 +101,3 @@ body {
 .testimoneals-img {
   width : 20%;
 }
-
-
-.carousel-control-next-icon {
-  content: '<';
-  font-size: 55px;
-  color:blac;
-}
-
-.carousel-control-prev-icon {
-  content: '>';
-  font-size: 55px;
-  color:blac;
-}
