@@ -38,11 +38,11 @@ body {
 }
 
 .candidate-name-mar {
-  margin:1% 0 0 10%;
+  margin:1% 0 0 20%;
 }
 
 .candidate-title-mar {
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 .candidate-img {
@@ -100,4 +100,10 @@ body {
 
 .testimoneals-img {
   width : 20%;
+}
+
+.ed-sk-ex {
+  width:50%;
+  text-align: center;
+  margin: auto;
 }
