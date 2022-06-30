@@ -3,6 +3,15 @@ body {
 
 }
 
+.bio-font {
+  font-family: 'Courgette', cursive;
+  text-align:justify;
+}
+
+.other-font {
+  font-family: 'Libre Baskerville', serif;
+}
+
 .thing {
   display:none;
 }
@@ -11,18 +20,29 @@ body {
   display: block;
 }
 
-.row-div {
-  margin-left: auto;
+.achiev {
+  display:none;
 }
 
-.cv-div-img {
-  font-size: 500%;
-  margin: 20px;
+.achiev.open {
+  display: block;
+}
+
+.row-div {
+  margin-left: auto;
 }
 
 .container {
   margin: 20px 0;
   text-align: center;
+}
+
+.candidate-name-mar {
+  margin:1% 0 0 10%;
+}
+
+.candidate-title-mar {
+  margin-left: 10%;
 }
 
 .candidate-img {
@@ -31,18 +51,24 @@ body {
 }
 
 .circle-img {
-  width: 20%;
+  width: 15%;
   margin:10px;
 }
 @media (max-width: 500px) {
   .candidate-img {
-    width:60%;
+    width:50%;
     border-radius: 100%;
     margin:20px 0;
   }
   .circle-img {
-    width: 28%;
+    width: 25%;
     margin:5px;
+  }
+  .candidate-name-mar {
+    margin:0;
+  }
+  .candidate-title-mar {
+    margin-left: 0;
   }
 }
 
@@ -66,7 +92,25 @@ body {
   background-color: #242F9B;
 }
 
-.nav_right {
-  position: absolute;
-  right: 0;
+#testimoneals {
+  padding: 8% 20%;
+  background-color: #DBDFFD;
+  text-align: justify;
+}
+
+.testimoneals-img {
+  width : 20%;
+}
+
+
+.carousel-control-next-icon {
+  content: '<';
+  font-size: 55px;
+  color:blac;
+}
+
+.carousel-control-prev-icon {
+  content: '>';
+  font-size: 55px;
+  color:blac;
 }
