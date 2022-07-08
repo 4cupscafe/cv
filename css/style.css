@@ -1,0 +1,105 @@
+/* navigation area */
+
+body {
+  background-color: #DBDFFD;
+}
+
+.candidate-name-mar {
+  margin:1% 0 0 20%;
+}
+
+.candidate-title-mar {
+  margin-left: 20%;
+}
+
+/* Mid area */
+
+.hide-block {
+  display: none;
+}
+
+.bio-font {
+  font-family: 'Courgette', cursive;
+}
+
+.other-font {
+  font-family: 'Monda', sans-serif;
+}
+
+.container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.candidate-img {
+  width:100%;
+  border-radius: 100%;
+}
+
+.achievements-img {
+  width: 25%;
+  border-radius: 100%;
+  margin: 2% 0 5% 0;
+}
+
+.circle-img {
+  width: 15%;
+  margin:10px;
+}
+@media (max-width: 500px) {
+  .candidate-img {
+    width:50%;
+    border-radius: 100%;
+    margin:20px 0;
+  }
+  .circle-img {
+    width: 25%;
+    margin:5px;
+  }
+  .candidate-name-mar {
+    margin:0;
+  }
+  .candidate-title-mar {
+    margin-left: 0;
+  }
+}
+
+.ed-sk-ex {
+  width:80%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2%;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.ed-sk-ex-detail {
+  text-align: center;
+  margin: auto;
+  width:80%;
+}
+
+.carousel-info {
+  text-align: center;
+  background-color : #242F9B;
+  color:white;"
+}
+
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* contact area */
+
+.contact-info {
+  text-align: center;
+  background-color: #242F9B;
+  color: white;
+}
+
+.contact-img {
+  color: white;
+  margin: 1%;
+}
